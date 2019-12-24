@@ -2,7 +2,7 @@ module kope.io/etcd-manager
 
 go 1.12
 
-replace k8s.io/kops => k8s.io/kops v1.4.2-0.20191120011744-9992b4055733
+replace k8s.io/kops => k8s.io/kops v1.4.2-0.20191204095857-e1f7d31c823a
 
 // Version kubernetes-1.15.3
 //replace k8s.io/kubernetes => k8s.io/kubernetes v1.15.3
@@ -79,10 +79,7 @@ require (
 	github.com/aws/aws-sdk-go v1.26.2
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/coreos/etcd v3.3.13+incompatible
-	github.com/coreos/go-semver v0.2.0 // indirect
-	github.com/denverdino/aliyungo v0.0.0-20180409134525-ed76a3738861 // indirect
 	github.com/digitalocean/godo v1.19.0
-	github.com/go-ini/ini v1.32.0 // indirect
 	github.com/golang/protobuf v1.3.2
 	github.com/gophercloud/gophercloud v0.0.0-20190216224116-dcc6e84aef1b
 	github.com/pkg/sftp v0.0.0-20180127012644-738e088bbd93 // indirect
@@ -91,11 +88,10 @@ require (
 	google.golang.org/api v0.0.0-20181220000619-583d854617af
 	google.golang.org/grpc v1.17.0
 	gopkg.in/gcfg.v1 v1.2.3
-	gopkg.in/ini.v1 v1.51.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.2.4
 	k8s.io/apimachinery v0.0.0
-	k8s.io/client-go v11.0.0+incompatible
+	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
 	k8s.io/klog v1.0.0
 	k8s.io/kops v0.0.0-00010101000000-000000000000
 	k8s.io/utils v0.0.0-20191114200735-6ca3b61696b6

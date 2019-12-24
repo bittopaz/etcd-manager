@@ -69,15 +69,16 @@ github.com/coreos/etcd/pkg/types
 github.com/coreos/etcd/version
 # github.com/coreos/go-semver v0.2.0
 github.com/coreos/go-semver/semver
-# github.com/denverdino/aliyungo v0.0.0-20180409134525-ed76a3738861
+# github.com/denverdino/aliyungo v0.0.0-20191128015008-acd8035bbb1d
 github.com/denverdino/aliyungo/common
+github.com/denverdino/aliyungo/metadata
 github.com/denverdino/aliyungo/oss
 github.com/denverdino/aliyungo/util
 # github.com/digitalocean/godo v1.19.0
 github.com/digitalocean/godo
-# github.com/go-ini/ini v1.32.0
+# github.com/go-ini/ini v1.51.0
 github.com/go-ini/ini
-# github.com/gogo/protobuf v0.0.0-20171007142547-342cbe0a0415
+# github.com/gogo/protobuf v1.1.1
 github.com/gogo/protobuf/gogoproto
 github.com/gogo/protobuf/proto
 github.com/gogo/protobuf/protoc-gen-gogo/descriptor
@@ -118,11 +119,11 @@ github.com/kr/fs
 github.com/modern-go/concurrent
 # github.com/modern-go/reflect2 v1.0.1
 github.com/modern-go/reflect2
-# github.com/pkg/errors v0.8.0
+# github.com/pkg/errors v0.8.1
 github.com/pkg/errors
 # github.com/pkg/sftp v0.0.0-20180127012644-738e088bbd93
 github.com/pkg/sftp
-# golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
+# golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529
 golang.org/x/crypto/curve25519
 golang.org/x/crypto/ed25519
 golang.org/x/crypto/ed25519/internal/edwards25519
@@ -145,7 +146,7 @@ golang.org/x/oauth2/google
 golang.org/x/oauth2/internal
 golang.org/x/oauth2/jws
 golang.org/x/oauth2/jwt
-# golang.org/x/sys v0.0.0-20190312061237-fead79001313
+# golang.org/x/sys v0.0.0-20190412213103-97732733099d
 golang.org/x/sys/cpu
 golang.org/x/sys/unix
 # golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
@@ -219,13 +220,13 @@ gopkg.in/yaml.v2
 # k8s.io/apimachinery v0.0.0 => k8s.io/apimachinery v0.0.0-20190817020851-f2f3a405f61d
 k8s.io/apimachinery/pkg/util/runtime
 k8s.io/apimachinery/pkg/util/wait
-# k8s.io/client-go v11.0.0+incompatible => k8s.io/client-go v0.0.0-20190819141724-e14f31a72a77
+# k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible => k8s.io/client-go v0.0.0-20190819141724-e14f31a72a77
 k8s.io/client-go/util/cert
 k8s.io/client-go/util/homedir
 k8s.io/client-go/util/keyutil
 # k8s.io/klog v1.0.0
 k8s.io/klog
-# k8s.io/kops v0.0.0-00010101000000-000000000000 => k8s.io/kops v1.4.2-0.20191120011744-9992b4055733
+# k8s.io/kops v0.0.0-00010101000000-000000000000 => k8s.io/kops v1.4.2-0.20191204095857-e1f7d31c823a
 k8s.io/kops/pkg/try
 k8s.io/kops/util/pkg/hashing
 k8s.io/kops/util/pkg/vfs
